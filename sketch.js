@@ -5,7 +5,7 @@ function initialize() {
     if (cvs == null) {
         background('black');
         cvs = createCanvas(400, 400);
-        numData = createNumberDict();
+        numData = createNumberDict(0, 0);
     } else {
         background(random(255), random(255), random(255));
         square(100, 100, 200);
